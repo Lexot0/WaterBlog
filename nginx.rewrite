@@ -1,0 +1,9 @@
+if (!-d $request_filename){
+    set $rule 1$rule;
+}
+if (!-f $request_filename){
+    set $rule 2$rule;
+}
+if ($rule = "21"){
+ rewrite ^/.*?([^/]*)$ /index.php?$1 last;
+}
