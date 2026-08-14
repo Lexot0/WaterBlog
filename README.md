@@ -7,7 +7,7 @@
 
 ----
 
-WaterBlog is a blog platform based on the open-source system of Qingyu Blog.
+### WaterBlog is a blog platform based on the open-source system of Qingyu Blog.
 
 #### Official
 + Demo website: [https://prain.cn](https://prain.cn)
